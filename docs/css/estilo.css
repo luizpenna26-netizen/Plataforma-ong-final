@@ -2,7 +2,7 @@
 @import url('layout.css');
 @import url('componentes.css');
 body {
-  background-image: url('imagens/fundo.jpg');
+  background-image: url('imagens/fundo.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,4 +90,5 @@ img {
 
 .fechar:hover {
   color: red;
+
 }
