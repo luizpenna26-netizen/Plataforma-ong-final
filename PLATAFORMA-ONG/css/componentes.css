@@ -1,0 +1,26 @@
+/* Cards */
+article {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: var(--espaco-3);
+  transition: transform 0.2s;
+}
+
+article:hover {
+  transform: scale(1.03);
+}
+
+/* Botões */
+button, input[type="submit"] {
+  background-color: var(--cor-primaria);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: var(--cor-secundaria);
+}

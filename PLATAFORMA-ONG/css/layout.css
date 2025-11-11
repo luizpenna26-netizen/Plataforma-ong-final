@@ -1,0 +1,50 @@
+header, footer {
+  text-align: center;
+  padding: var(--espaco-2);
+  background-color: var(--cor-primaria);
+  color: white;
+}
+
+/* Navegação */
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: var(--espaco-2);
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--cor-secundaria);
+}
+
+/* Grid para projetos */
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--espaco-3);
+  padding: var(--espaco-3);
+}
+@media (max-width: 1024px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: var(--espaco-1);
+  }
+}
