@@ -2,15 +2,6 @@ const tituloEl = document.getElementById('titulo');
 if (tituloEl) {
   tituloEl.innerText = "Bem-vindo à ONG Esperança!";
 }
-
-const linkProjetos = document.querySelector('a[href="projetos.html"]');
-if (linkProjetos) {
-  linkProjetos.addEventListener('click', e => {
-    e.preventDefault();
-    carregarPagina('projetos.html');
-  });
-}
-
 // Formulario
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById('formCadastro');
@@ -61,4 +52,5 @@ projetos.forEach(projeto => {
   `;
   container.innerHTML += card;
 });
+
 
