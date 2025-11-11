@@ -1,0 +1,28 @@
+:root {
+  /* Paleta de cores */
+  --cor-primaria: #004080;
+  --cor-secundaria: #007bff;
+  --cor-sucesso: #28a745;
+  --cor-aviso: #ffc107;
+  --cor-erro: #dc3545;
+  --cor-clara: #f8f9fa;
+  --cor-escura: #222;
+
+  /* Tipografia */
+  --fonte-principal: 'Arial', sans-serif;
+
+  /* Espaçamentos */
+  --espaco-1: 8px;
+  --espaco-2: 16px;
+  --espaco-3: 24px;
+  --espaco-4: 32px;
+  --espaco-5: 48px;
+  --espaco-6: 64px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-clara);
+  color: var(--cor-escura);
+}
